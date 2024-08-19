@@ -10,16 +10,29 @@
 
 .pessoal {
     width: 100vw;
+    margin-bottom: 4px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    
 }
 .foto {
-    width: 200px;
     display: flex;
     justify-content: center;
+    width: 200px;
 }
+
+#foto{
+    border-radius: 50%;
+}
+
 .info {
     width: calc(100vw - 200px);
     display: flex;
     align-items: center;
+}
+
+.rowPessoal {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
